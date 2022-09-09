@@ -1523,6 +1523,19 @@ footer p{
     width: 100%;
 }
 
+.form-contain{
+    max-width: 600px;
+    width: 100%;
+    left: 10%;
+    flex-direction: column;
+}
+.form-contain form{
+    margin: 3rem 0;
+}
+.signin-modal{
+    left: 0 !important;
+}
+
 }
 @media(max-width:990px) {
     .foot-1{
@@ -1583,6 +1596,18 @@ footer p{
 .footer-info-boxes li{
     margin: 1rem 0;
     width: 100%;
+}
+.form-contain{
+    max-width: 600px;
+    width: 100%;
+    left: 10%;
+    flex-direction: column;
+}
+.form-contain form{
+    margin: 3rem 0;
+}
+.signin-modal{
+    left: 0 !important;
 }
 }
 @media(max-width:500px){
@@ -1675,6 +1700,18 @@ footer p{
 .footer-info-boxes li{
     margin: 1rem 0;
     width: 100%;
+}
+.form-contain{
+    max-width: 500px;
+    width: 100%;
+    left: 0%;
+    flex-direction: column;
+}
+.form-contain form{
+    margin: 3rem 0;
+}
+.signin-modal{
+    left: 0 !important;
 }
     }
     
