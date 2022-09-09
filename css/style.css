@@ -1515,6 +1515,14 @@ footer p{
     text-align: center;
 }
 
+.address p{
+    font-size: 1.1rem !important;
+}
+.footer-info-boxes li{
+    margin: 1rem 0;
+    width: 100%;
+}
+
 }
 @media(max-width:990px) {
     .foot-1{
@@ -1537,6 +1545,11 @@ footer p{
     }
     .footer-info-boxes{
         column-count: 1;
+
+    }
+    
+    .address p{
+        font-size: 1.1rem !important;
     }
     .foot-2{
         grid-template-columns: 1fr;
@@ -1566,6 +1579,10 @@ footer p{
 }
 .foot-4 p{
     text-align: center;
+}
+.footer-info-boxes li{
+    margin: 1rem 0;
+    width: 100%;
 }
 }
 @media(max-width:500px){
@@ -1650,6 +1667,14 @@ footer p{
 }
 .foot-4 p{
     text-align: center;
+}
+
+.address p{
+    font-size: .8rem !important;
+}
+.footer-info-boxes li{
+    margin: 1rem 0;
+    width: 100%;
 }
     }
     
