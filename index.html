@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>    
+    <script src="https://kit.fontawesome.com/272a6bdf68.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome CDN -->
+    
+    <!-- Vendors Css Files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="vendors/aos/aos.css">
+   <!-- Main Css File -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="sidenav" id="sidebar">
+        <div class="sidenav-title">
+            <h4>گروه محصولات</h4>
+            <a href="#" id="close"><i class="fas fa-remove"></i></a>
+        </div>
+        <ul class="main-list">
+        <li><a href="#">صفحه اصلی</a></li>
+        <li>
+            <a href="#" class="accordion">عنوان منو</a>
+            <ul class="panel">
+                <li><a href="#">زیرمنو</a></li>
+                <li><a href="#">زیرمنو</a></li>
+                <li><a href="#">زیرمنو</a></li>
+                <li><a href="#">زیرمنو</a></li>
+            </ul>
+        </li>
+        <li><a href="#">عنوان منو</a></li>
+        <li><a href="#">عنوان منو</a></li>
+        <li><a href="#">عنوان منو</a></li>
+        <li><a href="#">عنوان منو</a></li>
+        <li><a href="#">عنوان منو</a></li>
+        </ul>
+        </div>
+        <header>
+            <div class="container-fluid-header">
+            <div class="topbar">
+                    
+               <div class="logo">
+                   <a href="index.html"><img src="image/logo.png" alt=""></a>
+               </div>
+                <div class="search-box">
+                    <input type="text" class="search-input" placeholder="نام محصول مورد نظر خود را وارد کنید" onkeyup="showBox()">
+                   <a href="#"><img src="image/Path 2.png" class="search-icon" alt=""></a> 
+                   <div class="result" id="result">
+                    <div class="products-list">
+                        <div class="result-product">
+                            <img src="image/pro0.jpg" alt="">
+                            <div class="result-text">
+                                <strong>نام محصول در این قسمت</strong>
+                                <small class="text-secondary">6,000 تومان</small>
+                            </div>
+                        </div>
+                        <div class="result-product">
+                            <img src="image/pro0.jpg" alt="">
+                            <div class="result-text">
+                                <strong>نام محصول در این قسمت</strong>
+                                <small class="text-secondary">6,000 تومان</small>
+                            </div>
+                        </div>
+                        <div class="result-product">
+                            <img src="image/pro0.jpg" alt="">
+                            <div class="result-text">
+                                <strong>نام محصول در این قسمت</strong>
+                                <small class="text-secondary">6,000 تومان</small>
+                            </div>
+                        </div>
+                        <div class="result-product">
+                            <img src="image/pro0.jpg" alt="">
+                            <div class="result-text">
+                                <strong>نام محصول در این قسمت</strong>
+                                <small class="text-secondary">6,000 تومان</small>
+                            </div>
+                        </div>
+                        <div class="result-product">
+                            <img src="image/pro0.jpg" alt="">
+                            <div class="result-text">
+                                <strong>نام محصول در این قسمت</strong>
+                                <small class="text-secondary">6,000 تومان</small>
+                            </div>
+                        </div>
+                        <div class="result-product">
+                            <img src="image/pro0.jpg" alt="">
+                            <div class="result-text">
+                                <strong>نام محصول در این قسمت</strong>
+                                <small class="text-secondary">6,000 تومان</small>
+                            </div>
+                        </div>
+                        <div class="result-product">
+                            <img src="image/pro0.jpg" alt="">
+                            <div class="result-text">
+                                <strong>نام محصول در این قسمت</strong>
+                                <small class="text-secondary">6,000 تومان</small>
+                            </div>
+                        </div>
+                        <div class="result-product">
+                            <img src="image/pro0.jpg" alt="">
+                            <div class="result-text">
+                                <strong>نام محصول در این قسمت</strong>
+                                <small class="text-secondary">6,000 تومان</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="titles">
+                    <h4 class="text-right">برندها</h4>
+                    <ul class="title-list">
+                        <li><a href="#">لیمون</a></li>
+                        <li><a href="#">همارا</a></li>
+                        <li><a href="#">ایکیا</a></li>
+                        <li><a href="#">هوم کت</a></li>
+                        <li><a href="#">اطلس</a></li>
+                        <li><a href="#">هارمونی</a></li>
+                        <li><a href="#">بانیو</a></li>
+                        <li><a href="#">سنی پلاستیک</a></li>
+                    </ul>
+                    </div>
+                    
+                   </div>
+                </div>
+        
+                <div class="topbar-info">
+                    <div class="topbar-info-boxes search-img">
+                        <a href="#" onclick="openSearch()">
+                            <img src="image/Path 2.png" alt="">
+                        </a>
+                       
+                    </div>
+                    <div class="topbar-info-boxes">
+                        <img src="image/Group 822.png" class="info-img" alt="">
+                        <b class="info-text">021-789456320</b>
+                    </div>
+                    
+                        <div class="mydropdown">
+                        <a href="" class="drop-btn">
+                            <img src="image/Group 3.png" class="info-img" alt="">
+                            <b class="info-text">حساب کاربری</b>  
+                        </a>
+                        <ul class="dropdown-content">
+                            <li>
+                                <a href="#" class="signin" id="signin">
+                                    <span>
+                                        <i class="fas fa-sign-in"></i>
+                                        ورود به حساب کاربری
+                                    </span>
+                            </a>
+                        </li>
+                            <li class="register">
+        
+                                <a href="#">
+                                    <span>
+                                        <i class="fas fa-edit"></i>
+                                        عضویت در سایت
+                                    </span>
+                                </a>
+                                </li>
+                        </ul>       
+                    </div>
+                                 
+                    
+                    <div class="topbar-info-boxes cart">
+                        <img src="image/Path 15.png" class="info-img" alt="">
+                        <b class="info-text">سبد خرید</b>
+                        <span class="cart-number">5</span>
+                    </div>
+                   
+                </div>
+                <div class="search" id="search">
+                    <form action="" class="search-form" data-aos="fade-down">
+                        <input type="text" placeholder="جستجو کنید">
+                        <button type="button" class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <a href="#" onclick="this.parentElement.style.transform='scale(0)';" class="close-search-modal">&times; بستن</a>
+                </div>
+                <div class="signin-modal" id="signin-modal">
+                    <div class="form-contain" data-aos="fade-down">
+                        <a href="#" onclick="closeModal()" class="close-btn d-flex align-items-center" id="close-Register"><i class="fas fa-remove px-2"></i>بستن</a>
+                    <form action="#">
+                        <h2 class="text-center text-white">ورود به حساب کاربری</h2>
+                        <p class="text-center text-white" style="font-size:1.2rem;">اگر قبلا ثبت نام کرده اید وارد حساب کاربری خود شوید</p>
+                        <input type="text" placeholder="شماره همراه">
+                        <input type="text" placeholder="رمز عبور">
+                        <a href="#" class="text-center text-white py-3" style="font-size: 1rem;">رمز عبور خود را فراموش کرده اید؟</a>
+                        <button type="submit" class="signin-btn">ورود</button>
+                        <p class="signup py-3"> قبلا ثبت نام نکرده اید؟ <a href="#" id="register-link"> ثبت نام </a></p> 
+                    </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <ul class="navigaton
+        ">
+        <li class="submenu" id="drop">
+            <a href="#" class="service-btn">ست سرویس بهداشتی</a>
+            <div class="submenu-content">
+            
+                <div class="category">
+                    <ul>
+                        <h5>عنوان دسته بندی</h5>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                     
+                    </ul>
+                    <ul>
+                        <h5>عنوان دسته بندی</h5>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                     
+                    </ul>
+                    <ul>
+                        <h5>عنوان دسته بندی</h5>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                        <li><a href="#">عنوان دسته بندی محصول</a></li>
+                     
+                    </ul>
+                </div>
+                <div style="padding:40px 40px 60px 40px;"><img src="image/mm.jpg" alt=""></div>
+            </div>
+        </li>
+        <li><a href="#">جا مایع دستشویی</a></li>
+        <li><a href="#">جا مسواکی</a></li>
+        <li><a href="#">جا صابونی</a></li>
+        <li><a href="#">آینه سرویس بهداشنی</a></li>
+        <li><a href="#">بوگیر و خوشبوکننده هوا</a></li>
+        <li><a href="#" class="d-flex justify-content-center align-items-center" id="menu"><i class="fas fa-bars px-2"></i>منوی دسترسی</a></li>
+        </ul>
+      
+        </header>
+           <!-- Header End-->
+        <!-- Hero -->
+         <div class="slideshow">
+           
+          
+                <div class="slides">
+                    <div class="slide-container">
+                        <img class="hero"  src="image/suction-bathroo.png" style="width:100%;" alt="">
+                       <div class="red-box"></div>
+                        <img src="image/Group 805.png" class="white-line" alt="">
+                     <div class="caption-container">
+                         <p class="caption">
+                             لورم ایپسوم یا طرح‌نما به متنی آزمایشی
+                             در طراحی گرافیک گفته می‌شود
+                            </p>
+                            <p class="caption-2"></p>
+                     </div>
+                    </div>
+                 
+                </div>
+                <div class="slides">
+                    <div class="slide-container">
+                        <img class="hero" id="hero-2" src="image/slider22.jpg" style="width:100%; height: 90vh;" alt="">
+                       <div class="red-box"></div>
+                        <img src="image/Group 805.png" class="white-line" alt="">
+                     <div class="caption-container">
+                         <p class="caption">
+                             لورم ایپسوم یا طرح‌نما به متنی آزمایشی
+                             در طراحی گرافیک گفته می‌شود
+                            </p>
+                            <p class="caption-2"></p>
+                     </div>
+                    </div>
+                 
+                </div>
+           
+                <a class="prev" onclick="plus(-1)">&#10094;</a>
+                <a class="next" onclick="plus(1)">&#10095;</a>
+          
+        
+        <div class="text-center dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        </div>
+        </div> 
+        
+        
+        <!-- Hero End-->
+        
+        <!-- Main -->
+        <main>
+        
+        
+        <h1 class="special-txt">پیشنهادهای <strong> ویژه</strong></h1>
+        <p id="special-parag" style="text-align:center;">لورم ایپسوم یا طرح‌نما به متنی بی‌معنی در  طراحی گرافیک گفته می‌شود</p>
+        
+       
+    <div class="container">
+        <div id="main" class="owl-carousel owl-theme" >
+            <div class="item">
+                <div class="image-bottom-2">
+                    <img src="image/offer1.jpg" style="width: 100%;" alt="">
+                    <svg class="main-curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                        <p class="main-discount">%20 تخفیف</p>
+                    </svg>
+                   
+                    <div class="carousel-centext-2">
+                        <h4 style="color: white; font-size: 1.5rem;">ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                        <p class="multiple-text-2">
+                            <span class="price">720,000 تومان</span>
+                            <span class="line-through">900,000 تومان</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom-text">
+                    <i class="fa fa-clock-o" style="color:#e64545;"></i>
+                    <p class="time">09 : 25 : 18 : 2</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image-bottom-2">
+                    <img src="image/offer1.jpg" style="width: 100%;" alt="">
+                    <svg class="main-curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                        <p class="main-discount">%20 تخفیف</p>
+                    </svg>
+                   
+                    <div class="carousel-centext-2">
+                        <h4 style="color: white; font-size: 1.5rem;">ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                        <p class="multiple-text-2">
+                            <span class="price">720,000 تومان</span>
+                            <span class="line-through">900,000 تومان</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom-text">
+                    <i class="fa fa-clock-o" style="color:#e64545;"></i>
+                    <p class="time">09 : 25 : 18 : 2</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image-bottom-2">
+                    <img src="image/offer2.jpg" style="width: 100%;" alt="">
+                    <svg class="main-curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                        <p class="main-discount">%20 تخفیف</p>
+                    </svg>
+                   
+                    <div class="carousel-centext-2">
+                        <h4 style="color: white; font-size: 1.5rem;">ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                        <p class="multiple-text-2">
+                            <span class="price">720,000 تومان</span>
+                            <span class="line-through">900,000 تومان</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom-text">
+                    <i class="fa fa-clock-o" style="color:#e64545;"></i>
+                    <p class="time">09 : 25 : 18 : 2</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image-bottom-2">
+                    <img src="image/offer3.jpg" style="width: 100%;" alt="">
+                    <svg class="main-curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                        <p class="main-discount">%20 تخفیف</p>
+                    </svg>
+                   
+                    <div class="carousel-centext-2">
+                        <h4 style="color: white; font-size: 1.5rem;">ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                        <p class="multiple-text-2">
+                            <span class="price">720,000 تومان</span>
+                            <span class="line-through">900,000 تومان</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom-text">
+                    <i class="fa fa-clock-o" style="color:#e64545;"></i>
+                    <p class="time">09 : 25 : 18 : 2</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image-bottom-2">
+                    <img src="image/offer4.jpg" style="width: 100%;" alt="">
+                    <svg class="main-curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                        <p class="main-discount">%20 تخفیف</p>
+                    </svg>
+                   
+                    <div class="carousel-centext-2">
+                        <h4 style="color: white; font-size: 1.5rem;">ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                        <p class="multiple-text-2">
+                            <span class="price">720,000 تومان</span>
+                            <span class="line-through">900,000 تومان</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom-text">
+                    <i class="fa fa-clock-o" style="color:#e64545;"></i>
+                    <p class="time">09 : 25 : 18 : 2</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image-bottom-2">
+                    <img src="image/offer5.jpg" style="width: 100%;" alt="">
+                    <svg class="main-curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                        <p class="main-discount">%20 تخفیف</p>
+                    </svg>
+                   
+                    <div class="carousel-centext-2">
+                        <h4 style="color: white; font-size: 1.5rem;">ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                        <p class="multiple-text-2">
+                            <span class="price">720,000 تومان</span>
+                            <span class="line-through">900,000 تومان</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom-text">
+                    <i class="fa fa-clock-o" style="color:#e64545;"></i>
+                    <p class="time">09 : 25 : 18 : 2</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="image-bottom-2">
+                    <img src="image/offer4.jpg" style="width: 100%;" alt="">
+                    <svg class="main-curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                        <p class="main-discount">%20 تخفیف</p>
+                    </svg>
+                   
+                    <div class="carousel-centext-2">
+                        <h4 style="color: white; font-size: 1.5rem;">ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                        <p class="multiple-text-2">
+                            <span class="price">720,000 تومان</span>
+                            <span class="line-through">900,000 تومان</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="bottom-text">
+                    <i class="fa fa-clock-o" style="color:#e64545;"></i>
+                    <p class="time">09 : 25 : 18 : 2</p>
+                </div>
+            </div>
+            
+        </div>
+    
+    </div>
+        
+        
+          
+        
+        
+        
+        <!-- Products -->
+        <section class="products">
+           <h1>گروه <strong>محصولات</strong></h1>
+           <div class="products-group">
+              <div class="product">
+                 <img src="image/ست-بهداشتی-طرح- (1).png" alt="">
+                 <div class="product-img-text">
+                    <h4>ست سرویس بهداشتی</h4>
+                 </div>
+              </div>
+              <div class="product">
+                <img src="image/جا-مسواکی-ایکیا (1).png" alt="">
+                <div class="product-img-text">
+                   <h4>جا مسواکی</h4>
+                </div>
+             </div>
+             <div class="product">
+                <img src="image/jamayeostovanei (1).png" alt="">
+                <div class="product-img-text">
+                   <h4>مایع دستشویی</h4>
+                </div>
+             </div>
+             <div class="product">
+                <img src="image/dfc705c929c2205 (1).png" alt="">
+                <div class="product-img-text">
+                   <h4>بوگیر و خوشبوکننده هوا</h4>
+                </div>
+             </div>
+             <div class="product">
+                <img src="image/285bfe5364e7529 (1).png" alt="">
+                <div class="product-img-text">
+                   <h4>جا صابونی</h4>
+                </div>
+             </div>
+             <div class="product">
+                <img src="image/آینه-دستشویی-مد (1).png" alt="">
+                <div class="product-img-text">
+                   <h4>آینه دستشویی</h4>
+                </div>
+             </div>
+             <div class="product">
+                <img src="image/ست-بهداشتی-طرح- (1).png" alt="">
+                <div class="product-img-text">
+                   <h4>ست سرویس بهداشتی</h4>
+                </div>
+             </div>
+             <div class="product">
+               <img src="image/جا-مسواکی-ایکیا (1).png" alt="">
+               <div class="product-img-text">
+                  <h4>جا مسواکی</h4>
+               </div>
+            </div>
+            <div class="product">
+               <img src="image/jamayeostovanei (1).png" alt="">
+               <div class="product-img-text">
+                  <h4>مایع دستشویی</h4>
+               </div>
+            </div>
+            <div class="product">
+               <img src="image/dfc705c929c2205 (1).png" alt="">
+               <div class="product-img-text">
+                  <h4>بوگیر و خوشبوکننده هوا</h4>
+               </div>
+            </div>
+            <div class="product">
+               <img src="image/285bfe5364e7529 (1).png" alt="">
+               <div class="product-img-text">
+                  <h4>جا صابونی</h4>
+               </div>
+            </div>
+            <div class="product">
+               <img src="image/آینه-دستشویی-مد (1).png" alt="">
+               <div class="product-img-text">
+                  <h4>آینه دستشویی</h4>
+               </div>
+            </div>
+           
+           </div>
+        </section>
+        
+        <!-- Products End-->
+        <div class="container">
+            <div class="ads">
+                <div class="ads-box">
+                 <p>بنر تبلیغ</p>
+                </div> 
+                <div class="ads-box">
+                 <p>بنر تبلیغ</p>
+                </div> 
+              </div>
+        </div>
+     
+        
+        <!-- First Carousel -->
+        
+               
+        
+            <h1 class="carousel-title">ست سرویس بهداشتی</h2>
+                <div class="container" id="cure">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            
+                                   <div class="image-bottom">
+                                       <img src="image/p13.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                       <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                        <p class="discount">%20</p>
+                                    </svg>
+                                      
+                                   </div>
+                                   <div class="carousel-centext">
+                                       <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                       <p class="multiple-text">
+                                           <span class="price">720,000 <span class="unit">تومان</span></span>
+                                           <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                
+                                <div class="image-bottom">
+                                    <img src="image/p13.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                     <p class="discount">%20</p>
+                                 </svg>
+                                 
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                
+                                <div class="image-bottom">
+                                    <img src="image/p14.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                     <p class="discount">%20</p>
+                                    </svg>
+                                    
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                
+                                <div class="image-bottom">
+                                    <img src="image/p15.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                        <p class="discount">%20</p>
+                                    </svg>
+                                   
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                
+                                <div class="image-bottom">
+                                    <img src="image/p16.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                     <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                     <p class="discount">%20</p>
+                                    </svg>
+                                   
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                
+                                <div class="image-bottom">
+                                    <img src="image/p13.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                        <p class="discount">%20</p>
+                                    </svg>
+                                   
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        
+                    </div>
+            
+        
+        
+        <!-- First Carousel End-->
+        <!-- Second Carousel -->
+        <h1 class="carousel-title">عنوان دسته بندی</h2>
+            
+                <div class="container">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            
+                                   <div class="image-bottom">
+                                       <img src="image/p1.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                       <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                        <p class="discount">%20</p>
+                                    </svg>
+                                      
+                                   </div>
+                                   <div class="carousel-centext">
+                                       <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                       <p class="multiple-text">
+                                           <span class="price">720,000 <span class="unit">تومان</span></span>
+                                           <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                
+                                <div class="image-bottom">
+                                    <img src="image/p2.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                     <p class="discount">%20</p>
+                                 </svg>
+                                 
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                
+                                <div class="image-bottom">
+                                    <img src="image/p3.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                     <p class="discount">%20</p>
+                                    </svg>
+                                    
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                
+                                <div class="image-bottom">
+                                    <img src="image/p4.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                        <p class="discount">%20</p>
+                                    </svg>
+                                   
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                
+                                <div class="image-bottom">
+                                    <img src="image/p1.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                     <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                     <p class="discount">%20</p>
+                                    </svg>
+                                   
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                
+                                <div class="image-bottom">
+                                    <img src="image/p2.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                    <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                        <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                        <p class="discount">%20</p>
+                                    </svg>
+                                   
+                                </div>
+                                <div class="carousel-centext">
+                                    <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                    <p class="multiple-text">
+                                        <span class="price">720,000 <span class="unit">تومان</span></span>
+                                        <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                      
+                        
+                    </div>
+            
+        
+        
+        <!-- Second Carousel End-->
+        
+        <div class="container">
+
+            <div class="ads2">
+                <div class="ads-box">
+                 <p>بنر تبلیغ</p>
+                </div> 
+                <div class="ads-box">
+                 <p>بنر تبلیغ</p>
+                </div> 
+                <div class="ads-box">
+                   <p>بنر تبلیغ</p>
+                  </div> 
+              </div>
+        </div>
+        
+        <!-- Third Carousel -->
+        <h1 class="carousel-title">عنوان دسته بندی</h1>
+        
+            <div class="container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        
+                               <div class="image-bottom">
+                                   <img src="image/p5.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                   <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                    <p class="discount">%20</p>
+                                </svg>
+                                  
+                               </div>
+                               <div class="carousel-centext">
+                                   <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                   <p class="multiple-text">
+                                       <span class="price">720,000 <span class="unit">تومان</span></span>
+                                       <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+            
+                            <div class="image-bottom">
+                                <img src="image/p6.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                 <p class="discount">%20</p>
+                             </svg>
+                             
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+            
+                            <div class="image-bottom">
+                                <img src="image/p7.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                 <p class="discount">%20</p>
+                                </svg>
+                                
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+            
+                            <div class="image-bottom">
+                                <img src="image/p8.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                    <p class="discount">%20</p>
+                                </svg>
+                               
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            
+                            <div class="image-bottom">
+                                <img src="image/p5.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                 <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                 <p class="discount">%20</p>
+                                </svg>
+                               
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            
+                            <div class="image-bottom">
+                                <img src="image/p6.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                    <p class="discount">%20</p>
+                                </svg>
+                               
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    
+                </div>
+        
+        
+        <!-- Third Carousel End-->
+        <!-- Forth Carousel -->
+        <h1 class="carousel-title">عنوان دسته بندی</h1>
+        
+            <div class="container">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        
+                               <div class="image-bottom">
+                                   <img src="image/p9.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                   <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                    <p class="discount">%20</p>
+                                </svg>
+                                  
+                               </div>
+                               <div class="carousel-centext">
+                                   <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                   <p class="multiple-text">
+                                       <span class="price">720,000 <span class="unit">تومان</span></span>
+                                       <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+            
+                            <div class="image-bottom">
+                                <img src="image/p10.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                 <p class="discount">%20</p>
+                             </svg>
+                             
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+            
+                            <div class="image-bottom">
+                                <img src="image/p11.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                 <p class="discount">%20</p>
+                                </svg>
+                                
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+            
+                            <div class="image-bottom">
+                                <img src="image/p12.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                    <p class="discount">%20</p>
+                                </svg>
+                               
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            
+                            <div class="image-bottom">
+                                <img src="image/p9.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                 <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                 <p class="discount">%20</p>
+                                </svg>
+                               
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            
+                            <div class="image-bottom">
+                                <img src="image/p10.jpg" class="origin-img" style="width:100%; border-radius: 25px;" alt="">
+                                <svg class="curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                                    <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                                    <p class="discount">%20</p>
+                                </svg>
+                               
+                            </div>
+                            <div class="carousel-centext">
+                                <h4>ست سرویس بهداشتی ۶ پارچه لیمون طرح روژا طلایی</h4>
+                                <p class="multiple-text">
+                                    <span class="price">720,000 <span class="unit">تومان</span></span>
+                                    <span class="muted-text">900,000 <span class="unit">تومان</span></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    
+                </div>
+        
+        
+        
+        
+        <!-- Forth Carousel End-->
+        
+        
+        <div class="container">
+            <div class="single-ads">
+                <div class="ads-box">
+                 <p>بنر تبلیغ</p>
+                </div> 
+              </div>
+        </div>
+       
+         
+        <section class="blog">
+        <h1>اخبار و <strong>مقالات</strong></h1>
+        
+    <div class="container">
+        <div id="blog" class="owl-carousel owl-theme">
+            <div class="item">
+           <div class="blog-container">
+               <div class="blog-image">
+                   <img src="image/news1.jpg" class="origin-img" alt="">
+                   <svg class="blog-curve" xmlns="http://www.w3.org/2000/svg" width="189" height="30">
+                       <path d="M13.357 30C43.41 30 61.736 0 94.5 0s51.09 30 81.143 30H13.357Z" fill="#fff"></path>
+                       <p class="date">1400/3/10</p>
+                   </svg>
+               </div>
+               <div class="blog-content">
+                   <h4>
+                       لورم ایپسوم یا طرح‌نما به متنی بی‌معنی در طراحی گرافیک گفته می‌شود
+                   </h4>
+                   <p>
+                       طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن صفحه و
+                       ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می نماید، تا از نظر
+                       گرافیکی نشانگر چگونگی نوع و اندازه فونت متن باشد
+                   </p>
+                   <strong class="text-muted">دسته بندی : اخبار</strong>
+               </div>
+
+           </div>
+
+            
+
+              
+            </div>
+      
+
+                             
+
+
+
+        </div>
+
+
+    </div>
+     
+        <!-- Blog -->
+      
+            
+        
+        <!-- Blog End-->
+        </section>
+        
+        <div class="accessories">
+            <div class="accessory-box">
+                <img src="image/instagram.png" style="width: 50px;" alt="">
+                <h3 class="accessory-text">
+                    accessories_bath_sample_shop
+                </h3>
+            </div>
+            <p>اینستاگرام ما را دنبال کرده و به دوستان خود معرفی کنید</p>
+           
+        </div>
+        <div class="container">
+            
+                <div id="all-products" class="owl-carousel owl-theme" >
+                    <div class="item">
+                        <div><img src="image/insta1.jpg" class="origin-img" style="width:100%;" alt=""></div>
+                    </div>
+                    <div class="item">
+                        <div><img src="image/insta2.jpg" class="origin-img" style="width:100%;" alt=""></div>
+                    </div>
+                    <div class="item">
+                        <div><img src="image/insta3.jpg" class="origin-img" style="width:100%;" alt=""></div>
+                    </div>
+                    <div class="item">
+                        <div><img src="image/insta4.jpg" class="origin-img" style="width:100%;" alt=""></div>
+                    </div>
+                    <div class="item">
+                        <div><img src="image/insta5.jpg" class="origin-img" style="width:100%;" alt=""></div>
+                    </div>
+                    <div class="item">
+                        <div><img src="image/insta6.jpg" class="origin-img" style="width:100%;" alt=""></div>
+                    </div>
+                    <div class="item">
+                        <div><img src="image/insta1.jpg" class="origin-img" style="width:100%;" alt=""></div>
+                    </div>
+                    
+                </div>
+                
+        
+        </div>
+        
+          
+        
+        
+        
+        <!-- Main End-->
+        </main>
+            <!-- Footer -->
+        <footer>
+        <div class="foot-1">
+           <a href="#" class="foot-logo"><img src="image/logo2.png" alt=""></a>
+           <ul class="footer-links">
+              <h4>لینک های دسترسی</h4>
+           <li><a href="#">محصولات</a></li>
+           <li><a href="#">درباره ما</a></li>
+           <li><a href="#">تماس با ما</a></li>
+           <li><a href="#">اخبار و رویدادها</a></li>
+           <li><a href="#">چندرسانه ای</a></li>
+           </ul>
+           <ul class="footer-links">
+              <h4>خدمات مشتریان</h4>
+           <li><a href="#">حمایت از مشتریان</a></li>
+           <li><a href="#">پیگیری سفارش</a></li>
+           <li><a href="#">سوالات متداول</a></li>
+           <li><a href="#">روش های ارسال و هزینه ها</a></li>
+           <li><a href="#">انتقادات و پیشنهادات</a></li>
+           </ul>
+           <ul class="footer-links control">
+              <h4>راهنمای خرید</h4>
+           <li><a href="#">نحوه ثبت سفارش</a></li>
+           <li><a href="#">نحوه ارسال سفارش</a></li>
+           <li><a href="#">راهنمای پرداخت</a></li>
+          
+           </ul>
+           <div class="enamad">
+               <ul class="enamad-list">
+                   <li><img src="image/logo (1).png" alt=""></li>
+                   <li><img src="image/enamad.png" alt=""></li>
+               </ul>
+
+           </div>
+        </div>
+        
+        <div class="foot-2">
+        
+        <div class="footer-info">
+        <h4 class="mr-4">اطلاعات تماس</h4>
+        <div class="container">
+           <ul class="footer-info-boxes">
+            <li class="address">
+                <img src="image/f1.png" style="width:23px;" alt="">
+                <p>
+                    آدرس مورد نظر در این قسمت قرار خواهد گرفت، آدرس مورد نظر در این قسمت قرار خواهد گرفت
+                </p>
+                            
+            </li>
+            <li class="envelope">
+                <img src="image/f2.png" style="width: 23px;" alt="">
+                <p>
+                    info@sample.com
+
+                </p>
+            </li>
+            <li class="ring">
+                <img src="image/f3.png" style="width: 23px;" alt="">
+                <p>
+                    ۰۲۱-۹۸۷۶۵۴۳۲
+                    
+                </p>
+            </li>
+           </ul>
+
+        </div>
+        
+        </div>
+        <div class="social">
+           <h4>ما را دنبال کنید</h4>
+           <ul>
+              <li><a href="#"><img src="image/008-twitter.png" style="width:20px;" alt=""></a></li>
+              <li><a href="#"><img src="image/facebook.png" style="width:20px;" alt=""></a></li>
+              <li><a href="#"><img src="image/aparat.png" style="width:20px;" alt=""></a></li>
+              <li><a href="#"><img src="image/instagram (1).png" style="width:20px;" alt=""></a></li>
+              <li><a href="#"><img src="image/telegram.png" style="width:20px;" alt=""></a></li>
+             
+           </ul>
+           </div>
+        </div>
+        <div class="foot-3">
+           <div class="foot-3-box">
+        
+              <div class="foot-3-text">
+                 <p>با عضویت در خبرنامه ما همواره بروز باشید</p>
+              </div>
+              <div class="inputs">
+                 <div class="input-group">
+                    <span class="input-group-prepend">
+                       <button type="button" class="btn-danger">ثبت</button>
+                    </span>
+                    <input type="text" placeholder="شماره همراه خود را وارد کنید">
+                    <div class="input-group-append">
+                        <i class="fas fa-mobile"></i>
+                    </div>
+                 </div>
+                 <div class="input-group">
+                    <span class="input-group-prepend">
+                       <button type="button" class="btn-danger">ثبت</button>
+                    </span>
+                    <input type="text" placeholder="ایمیل خود را وارد کنید">
+                    <div class="input-group-append">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                 </div>
+              </div>
+              
+           </div>
+         
+        </div>
+        <div class="foot-4">
+        <p>www.sample.com - Copyright © 2021 - All rights reserved.</p>
+        </div>
+        </footer>
+        
+            <!-- Footer End-->
+        
+
+   <!-- Header -->
+
+   
+   <!-- Jquery CDN -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+ <script src="vendors/aos/aos.js"></script>
+<!-- Main Js File -->
+<script src="js/main.js"></script>
+
+  
+</body>
+</html>

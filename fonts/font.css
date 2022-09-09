@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'nasim';
+    font-style: normal;
+	font-weight: 300;
+    src:url(nasim.eot?#) format('embedded-opentype'),    
+          url(nasim.woff) format('woff'),
+          url(nasim.ttf) format('truetype'); 
+}
